@@ -1,0 +1,17 @@
+.compliance_heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.compliance_flex{
+    width:25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.compliance_line{
+    width:50px;
+    height:5px;
+    background-color: red;
+}

@@ -1,0 +1,32 @@
+
+.card{
+    width:20rem;
+}
+.card_img{
+    opacity: 0.8;
+}
+.cards-title{
+    position:absolute;
+    width:100%;
+    bottom:0;
+    left:10;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    word-spacing: 5px;
+    z-index:1;
+    text-align: center;
+}
+.our_services_heading{
+    color:brown;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.service_card{
+
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+}

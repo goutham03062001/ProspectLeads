@@ -1,0 +1,22 @@
+.count_down_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count_down_style::after{
+    content:'';
+    position: relative;
+    width:10px;
+    height:10px;
+    background-color: red;
+}
+
+.count_down_heading{
+    font-size: 25px;
+    color:brown;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

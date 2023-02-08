@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import {BrowserRouter as Router , Route, Routes} from 'react-router-dom';
+import Navigation from './components/Navigation';
+import Home from './pages/HomePage.js';
+import Contact from "./pages/Contact/Contact";
+import Testimonials from "./pages/Testimonials/Testimonials";
+import Compliance from "./pages/Compliance/Compliance";
+import Footer from './components/Footer/Footer';
+import WhoWeAre from './pages/WhoWeAre/WhoWeAre';
+import B2BEmail from './pages/B2B/B2BEmail';
+import Enrichment from './pages/Enrichment/Enrichment';
+import EmailCampagin from './pages/EmailCampagin/EmailCampagin';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="/Contact" element={ <Contact/> } />
+        <Route path="/testimonials" element={ <Testimonials/> } />
+        <Route path="/compliance" element={ <Compliance/> } />
+        <Route path="/WhoWeAre" element={ <WhoWeAre/> } />
+        <Route path="/Compliance" element={ <Compliance/> } />
+        <Route path="/B2B" element={ <B2BEmail/> } />
+        <Route path="/DataEnrichment" element={ <Enrichment/> } />
+        <Route path="/EmailCampagin" element={ <EmailCampagin/> } />
+      </Routes>
+      <Footer/>
+      </Router>
+    </>
+  )
 }
 
-export default App;
+export default App

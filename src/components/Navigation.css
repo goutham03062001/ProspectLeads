@@ -1,0 +1,18 @@
+/* 
+.navigation_left{
+    width:30%;
+}
+
+.navigation_right{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+.navbar_right{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
