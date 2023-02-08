@@ -4,7 +4,6 @@ import Contact from './Contact/Contact';
 import Services from './Services/Services';
 import Testimonials from "./Testimonials/Testimonials";
 import Partners from './Partners/Partners';
-import Footer from '../components/Footer/Footer';
 import Countdown from './Countdown/Countdown';
 import Top from '../components/Top/Top';
 const HomePage = () => {
