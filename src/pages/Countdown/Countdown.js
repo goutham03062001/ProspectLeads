@@ -1,9 +1,5 @@
 import React from 'react'
 import "./Countdown.css";
-import PersonIcon from '@mui/icons-material/Person';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import HandshakeIcon from '@mui/icons-material/Handshake';
-import ReviewsIcon from '@mui/icons-material/Reviews';
 import EmployeeImage from "../../Assets/teamwork.png";
 import AwardImage from "../../Assets/award.png";
 import HandShakeImage from "../../Assets/hand-shake.png";
