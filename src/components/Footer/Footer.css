@@ -1,5 +1,5 @@
 .bg-image{
-    background:#1e1e1e;
+    background:#2f363f;
     color:white;
 }
 .icon{
@@ -15,3 +15,10 @@
     justify-content: space-evenly;
     align-items: center;
 }
+/* 
+@media screen and (max-width:300px){
+    .footer_third_part{
+        margin-top: 50px;
+       
+    }
+} */

@@ -1,41 +1,45 @@
-import React from "react";
+import React from 'react'
 import "./Navigation.css";
 const Navigation = () => {
 
-
   return (
-    <>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
-  <div className="container">
-    <a className="navbar-brand" href="/">Prospect Leads</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarScroll">
-      <ul className="navbar-nav me-auto my-2 my-lg-0 navbar_right" >
-      <li className="nav nav-item">
-          <a className="nav-link " href="/" tabIndex="-1" aria-disabled="true">Home</a>
-        </li>
-        <li className="nav nav-item">
-          <a className="nav-link " href="/WhatWeOffer" tabIndex="-1" aria-disabled="true">What We Offer</a>
-        </li>
-        <li className="nav nav-item">
-          <a className="nav-link" href="/testimonials" tabIndex="-1" aria-disabled="true">Testimonials</a>
-        </li>
-        <li className="nav nav-item">
-          <a className="nav-link " href="/Contact" tabIndex="-1" aria-disabled="true">Contact US</a>
-        </li>
-        <li className="nav nav-item">
-          <a className="nav-link" href="/Compliance" tabIndex="-1" aria-disabled="true">Compliance</a>
-        </li>
-      </ul>
-      
-     
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary">
+  <a class="navbar-brand" href>Prospect Leads</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse ml-5" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
     
-    </div>
-  </div>
-</nav>    </>
-  );
-};
+      <li class="nav-item">
+        <a class="nav-link" href="/WhoWeAre">Who We Are</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href id="navbarDropdownMenuLink" data-toggle="dropdown" style = {{color:"white"}}>
+          What We Offer
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href>Action</a>
+          <a class="dropdown-item" href>Another action</a>
+          <a class="dropdown-item" href>Something else here</a>
+        </div>
+      </li>
 
-export default Navigation;
+      <li class="nav-item">
+        <a class="nav-link" href="/testimonials">Testimonials</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/Contact">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  )
+}
+
+export default Navigation

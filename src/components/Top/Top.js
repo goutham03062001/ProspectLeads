@@ -6,21 +6,21 @@ import ThirdImage from "../../Assets/HealthCare.jpg"
 import { Carousel } from "antd";
 const Top = () => {
   return (
-    <div className="container my-5">
+    <div className="container my-5">  
       <div className="row">
-        <Carousel autoplay>
+        <Carousel autoplay className="carousel_container">
           <div className="carouselInner d-flex my-3 p-2">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-6">
           <img
             src={FirstImage}
-            className="img img-fluid w-75 h-75"
+            className="img img-fluid  slide_image"
             alt="first"
           />
         </div>
-        <div className="col-lg-6 my-3 p-2">
+        <div className="col-lg-6 my-3">
           <p>Grow your bussiness with </p>
           <h4>Technology Sales Intelligence</h4>
-          <p style = {{lineHeight:"30px"}}>
+          <p style = {{lineHeight:"30px"  }}>
             Prospecting Leads captures technology installation details under
             various categories to provide B2B companies with insights on
             competitor or partner product users. Our clients accomplish
@@ -32,14 +32,14 @@ const Top = () => {
 
           </div>
           <div className="carouselInner d-flex">
-          <div className="col-lg-6">
+          <div className="col-lg-6 ">
           <img
             src={SecondImage}
-            className="img img-fluid w-75 h-75"
+            className="img img-fluid  slide_image"
             alt="first"
           />
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 ">
           <p>Grow your bussiness with </p>
           <h4>B2B Market Sales</h4>
           <p style = {{lineHeight:"30px"}}>
@@ -56,14 +56,14 @@ const Top = () => {
 
 
           <div className="carouselInner d-flex">
-          <div className="col-lg-6">
+          <div className="col-lg-6 ">
           <img
             src={ThirdImage}
-            className="img img-fluid w-75 h-75"
+            className="img img-fluid  slide_image"
             alt="first"
           />
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 ">
           <p>Grow your bussiness with </p>
           <h4>Technology Sales Intelligence</h4>
           <p style = {{lineHeight:"30px"}}>

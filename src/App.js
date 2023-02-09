@@ -10,6 +10,9 @@ import WhoWeAre from './pages/WhoWeAre/WhoWeAre';
 import B2BEmail from './pages/B2B/B2BEmail';
 import Enrichment from './pages/Enrichment/Enrichment';
 import EmailCampagin from './pages/EmailCampagin/EmailCampagin';
+import TechnologyUserData from "./pages/TechnologyUserData/TechnologyUserData";
+import MSPDatabase from './pages/MSP/MSPDatabase';
+import HealthCare from './pages/HealthCare/HealthCare';
 const App = () => {
   return (
     <>
@@ -25,6 +28,9 @@ const App = () => {
         <Route path="/B2B" element={ <B2BEmail/> } />
         <Route path="/DataEnrichment" element={ <Enrichment/> } />
         <Route path="/EmailCampagin" element={ <EmailCampagin/> } />
+        <Route path="/Technology-user-data" element={ <TechnologyUserData/> } />
+        <Route path="/MSP" element={ <MSPDatabase/> } />
+        <Route path="/HealthCare" element={ <HealthCare/> } />
       </Routes>
       <Footer/>
       </Router>
