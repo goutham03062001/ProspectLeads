@@ -1,6 +1,14 @@
-import React from 'react'
-import Image from "../../Assets/B2BPage.jpg";
+import React,{useEffect} from 'react'
+import Image from "../../Assets/HealthCare.png";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 const HealthCare = () => {
+  useEffect(()=>{
+    Aos.init({
+      offset:200,
+      duration:2000
+    })
+  })
     const data = [
         "Adolescent medicine",	"Forensic psychiatry",	"Neonatology",	"Pediatric surgery",
         "Aerospace medicine",	"Gastroenterology",	"Nephrology",	"Pediatrics",
@@ -20,15 +28,21 @@ const HealthCare = () => {
   return (
     <div className="container my-5">
       <div className="row my-5">
-        <h3 className="text text-center">Health Care Data</h3>
+      <div className=" d-flex justify-content-center" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic">
+        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold",color:"black", padding:'5px'}}>HealthCare Specialities</p>
+      </div>
       </div>
       <div className="row">
-        <div className="col-lg-8 main_image my-3">
-          <img src={Image} alt="first" className="img img-fluid" />
+        <div className="col-lg-12 main_image my-3">
+          <img src={Image} alt="first" className="img img-fluid main_image" />
         </div>
         
       </div>
-
+      <div className="testimonails_bottom_style">
+          <div className="testimonials_line"></div>
+          <div className="mx-3" style = {{fontWeight:"bold", fontSize:"24px"}}>HealthCare Specialities</div>
+        </div>
       <div className="row mt-5">
       {
             data.map( item=>{

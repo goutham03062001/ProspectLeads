@@ -10,16 +10,16 @@
     width:100%;
     bottom:0;
     left:10;
-    color:white;
+    color:black;
     font-weight: 700;
     font-size: 20px;
-    word-spacing: 5px;
     z-index:1;
     text-align: center;
+    margin-top: 50px;
 }
 .our_services_heading{
-    color:brown;
-    font-size: 25px;
+    color:black;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -28,5 +28,14 @@
    display:flex;
    justify-content: center;
    align-items: center;
-
+    background-color: white;
+    width:300px;
+    height:330px;
+    
+}
+.cards-title{
+    color:'black';
+}
+.service_card:hover{
+    color:"black"
 }

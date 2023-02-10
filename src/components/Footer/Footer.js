@@ -12,40 +12,41 @@ const Footer = () => {
   return (
     <div className="container-fluid bg-image">
       <div className="container mt-5 mb-2">
-      <div className="row">
-        <div className="col-lg-4 col-6">
-          <p>Follow Us On</p>
-          <div className="d-flex justify-content-start p-1">
-            <FacebookIcon className=""/>
-            <InstagramIcon  className="mx-1"/>
-            <LinkedInIcon  className="mx-1"/>
-          </div>
-        </div>
-        <div className="col-lg-4 col-6">
-          <p>Location</p>
-          <p>
-          3705 W Pico Blvd<br/>
-          #40 Los Angeles<br/>
-          CA, 90019-3451
-          </p>
-        </div>
-        <div className="col-lg-4 col-12">
-          <div className="row">
-            <div className="col-lg-6 col-6">
-            <p>Call Us</p>
-          <p>
-          +1 (609) 566-9944<br/>
-          +1 (302) 250-4336
-          </p>
+        <div className="row  py-5">
+          <div className="col-lg-3 col-6 mt-3">
+            <p style={{ fontSize: "18px", fontWeight: "bold" }}>Follow Us On</p>
+            <div className="d-flex justify-content-start p-1">
+              <FacebookIcon className="" />
+              <InstagramIcon className="mx-1" />
+              <LinkedInIcon className="mx-1" />
             </div>
+          </div>
+          <div className="col-lg-3 col-6 mt-3">
+            <p style={{ fontSize: "18px", fontWeight: "bold" }}>Location</p>
+            <p>
+              3705 W Pico Blvd
+              <br />
+              #40 Los Angeles
+              <br />
+              CA, 90019-3451
+            </p>
+          </div>
+          <div className="col-lg-3 col-12 mt-3">
+            <p style={{ fontSize: "18px", fontWeight: "bold" }}>Call Us</p>
+            <p>
+              +1 (972)-232-9280
+              <br />
+            </p>
+          </div>
 
-            <div className="col-lg-6 col-6">
-              <p>Email Us </p> 
-              <p>info@prospectleads.net</p>
-            </div>
+          <div className="col-lg-3 col-6 mt-3">
+            <p style={{ fontSize: "18px", fontWeight: "bold" }}>Email Us </p>
+            <p>info@prospect-leads.com</p>
           </div>
+
+          <h4 style = {{color:"white"}}>Copyright © 2023 <span>ProspectLeads</span></h4>
+
         </div>
-      </div>
       </div>
     </div>
   );

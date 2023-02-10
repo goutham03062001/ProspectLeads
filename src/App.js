@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+
 import {BrowserRouter as Router , Route, Routes} from 'react-router-dom';
-import Navigation from './components/Navigation';
+import Navigation from './components/Navigation/Nav';
 import Home from './pages/HomePage.js';
 import Contact from "./pages/Contact/Contact";
 import Testimonials from "./pages/Testimonials/Testimonials";

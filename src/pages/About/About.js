@@ -1,7 +1,7 @@
 import React from "react";
-import AboutImage from "../../Assets/AboutUs.jpg"
+import AboutImage from "../../Assets/AboutUs.png"
 import Styles from "./About.module.css";
-
+import "./About.css";
 const myStyle = {
   display: "flex",
   justifyContent: "flex-start",
@@ -10,22 +10,24 @@ const myStyle = {
 const arrowStyle = {
   width: "60px",
   height: "5px",
-  backgroundColor: "red",
+  backgroundColor: "black",
 };
 const About = () => {
   return (
     <div className="container">
       <div className="row">
         <div className="col-lg-5">
-          <img className="img img-fluid" src={AboutImage} alt="about-us" />
+          <img className="img img-fluid about_us_image" src={AboutImage} alt="about-us"/>
         </div>
-        <div className="col-lg-6 mt-5">
+        <div className="col-lg-7 mt-5">
           <div className={Styles.about_us_styling} style={myStyle}>
             <div style={arrowStyle}></div>
-            <div className="mx-3">About us</div>
+            <div className="mx-3">
+              <h3 style={{fontWeight:"bold"}}>About us</h3>
+            </div>
           </div>
           <p className={`${Styles.about_us_desc}`}>
-            Prospecting Leads has been a trusted service partner delivering
+            PROSPECT LEADS has been a trusted service partner delivering
             technology sales intelligence, business contact database,
             competitive analysis and market research services to several hundred
             global organizations for over a decade. Our data-driven insights

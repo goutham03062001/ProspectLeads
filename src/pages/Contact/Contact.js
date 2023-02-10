@@ -1,9 +1,10 @@
 import React from "react";
 import "./Contact.css";
-import ContactImage from "../../Assets/Contact.png";
+import ContactImage from "../../Assets/contactUs.png";
 import LocationImage from "../../Assets/location.png";
 import CallImage from "../../Assets/telephone.png";
 import EmailImage from "../../Assets/email.png";
+import { MailOutlined } from "@mui/icons-material";
 const Contact = ({ isFromHomePage }) => {
   return (
     <div className="container my-5">
@@ -24,7 +25,7 @@ const Contact = ({ isFromHomePage }) => {
             placeholder="email"
           />
           <textarea className="form-control p-3" placeholder="Message" />
-          <button className="btn btn-danger btn-md  my-5 submit_btn">
+          <button className="btn btn-dark btn-md  my-5 submit_btn">
             Submit
           </button>
         </div>
@@ -34,7 +35,7 @@ const Contact = ({ isFromHomePage }) => {
             <>
               <img
                 src={ContactImage}
-                className="img img-fluid mt-4"
+                className="img img-fluid contact_img mt-1"
                 alt="ContactImg"
               />
             </>
@@ -72,24 +73,21 @@ const Contact = ({ isFromHomePage }) => {
 
                 <div className="col-lg-6">
                   <img
-                    src={CallImage}
-                    className="img img-fluid img_icon mt-4 "
-                    alt="location"
-                  />
-                  <p>info@prospectingleads.net</p>
-                </div>
-
-                <div className="col-lg-6">
-                  <img
                     src={EmailImage}
                     className="img img-fluid img_icon mt-4 "
                     alt="location"
                   />
+                  <p>info@prospect-leads.com</p>
+                </div>
+
+                <div className="col-lg-6">
+                  <img
+                    src={CallImage}
+                    className="img img-fluid img_icon mt-4 "
+                    alt="location"
+                  />
                   <p className="mt-4">
-                    35B The Commons
-                    <br />
-                    3524 Silverside Road
-                    <br /> Wilmington, DE 19810-4929
+                  +1 (972)-232-9280
                   </p>
                 </div>
               </div>

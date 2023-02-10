@@ -1,7 +1,7 @@
 .testimonails_header{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
-    color:brown;
+    color:black;
 }
 .testimonails_style{
     display: flex;
@@ -13,11 +13,11 @@
 .testimonials_line{
     width:50px;
     height: 5px;
-    background-color: rgb(142, 56, 56);
+    background-color: black;
 }
 
 .testimonials_left_heading{
-    font-size: 20px;
+    font-size: 35px;
     margin-top:30px
 }
 .testimonials_comments{
@@ -25,7 +25,7 @@
     text-align: justify;
     margin-right: 20px;
     padding-right: 50px;
-    line-height: 40px;
+    line-height: 25px;
 }
 
 .testimonails_bottom_style{
@@ -40,7 +40,7 @@
 }
 
 .card_desc_testimonials{
-    line-height: 35px;
+    line-height: 25px;
     text-align: justify;
 }
 .testimonials_img{

@@ -1,15 +1,20 @@
 import React from "react";
-import ComplianceImage from "../../Assets/compliance.jpg";
+import ComplianceImage from "../../Assets/Compliance.png";
 import "./Compliance.css";
 const Compliance = () => {
   return (
     <div className="container my-5">
         <div className="row mt-5">
             <div className="compliance_flex">
-            <div className="compliance_line"></div>
-            <p className="text compliance_heading">Compliance</p>
-
-            </div>
+            <div className="testimonails_bottom_style">
+          <div className="testimonials_line"></div>
+          <div
+            className="mx-3"
+            style={{ fontWeight: "bold", fontSize: "24px" }}
+          >
+            Compliance
+          </div>
+        </div>
         </div>
       <div className="row">
 
@@ -30,6 +35,7 @@ const Compliance = () => {
             <img src = {ComplianceImage} className="img img-thumbnail" alt="compliance"/>
         </div>
       </div>
+    </div>
     </div>
   );
 };

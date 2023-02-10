@@ -6,10 +6,12 @@ import Testimonials from "./Testimonials/Testimonials";
 import Partners from './Partners/Partners';
 import Countdown from './Countdown/Countdown';
 import Top from '../components/Top/Top';
+import Navigation from "../components/Navigation/Nav";
 const HomePage = () => {
   return (
-    <section className=' my-5'>
-      <Top/>
+    <>
+       
+          <Top/>
         <About /> 
         <div className='container'>
           <div className='row'>
@@ -20,9 +22,8 @@ const HomePage = () => {
         <Testimonials isFromHomePage = "true"/>
         <Contact isFromHomePage = "true"/>
         <Partners/>
-        
-     
-    </section>
+       </> 
+    
   )
 }
 

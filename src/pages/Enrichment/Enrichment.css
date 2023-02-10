@@ -1,7 +1,14 @@
-.main_image{
+.main_image_container{
     width:100%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.enrichment_image{
+    height: 80% !important;
+    width:80% !important;
+    margin-left: 10% !important;
+
 }

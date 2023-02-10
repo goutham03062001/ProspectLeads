@@ -5,7 +5,7 @@ const Partners = () => {
     <>
       <div className="container-fluid my-5">
         <div className="row my-3">
-          <p className="our_clients_heading text-center">Our Partners & Clients</p>
+        <div className="text text-center contact_heading">Our Partners & clients</div>
         </div>
         <div className="row">
         <div class="slider col-lg-12">

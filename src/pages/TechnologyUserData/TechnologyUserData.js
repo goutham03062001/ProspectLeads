@@ -1,7 +1,15 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./TechnologyUserData.css";
-import Image from "../../Assets/B2BPage.jpg";
+import Image from "../../Assets/Technology.png";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 const TechnologyUserData = () => {
+  useEffect(()=>{
+    Aos.init({
+      offset:200,
+      duration:2000
+    })
+  })
     const data = [
         "Applicant Tracking Systems",
         "Analytics/Big Data/Business Intelligence (BI)",
@@ -33,15 +41,21 @@ const TechnologyUserData = () => {
   return (
     <div className="container my-5">
       <div className="row my-5">
-        <h3 className="text text-center">Technology User Data</h3>
+      <div className=" d-flex justify-content-center" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic">
+        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold", color:"black", padding:'5px'}}>Technology User Data and Insights</p>
+      </div>
       </div>
       <div className="row">
-        <div className="col-lg-8 main_image my-3">
-          <img src={Image} alt="first" className="img img-fluid" />
+        <div className="col-lg-12 main_image my-3">
+          <img src={Image} alt="first" className="img img-fluid main_image" />
         </div>
-
+        <div className="testimonails_bottom_style">
+          <div className="testimonials_line"></div>
+          <div className="mx-3" style = {{fontWeight:"bold", fontSize:"24px"}}>Technology User Data and Insights</div>
+        </div>
         <p className="text mt-3" style={{ lineHeight: "35px" }}>
-          Prospecting Leads captures technology installation details under
+          PROSPECT LEADS captures technology installation details under
           various categories to provide B2B companies with insights on
           competitor or partner product users. Our clients accomplish successful
           outcomes in their marketing programs thanks to the most accurate and

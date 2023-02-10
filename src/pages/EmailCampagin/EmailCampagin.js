@@ -1,19 +1,33 @@
-import React from "react";
-import Image from "../../Assets/B2BPage.jpg";
+import React,{useEffect} from "react";
+import Image from "../../Assets/B2B.png";
 import "./EmailCampagin";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 const EmailCampagin = () => {
+  useEffect(()=>{
+    Aos.init({
+      offset:200,
+      duration:2000
+    })
+  })
   return (
     <div className="container my-5">
       <div className="row my-5">
-        <h3 className="text text-center">Email Campaign</h3>
+      <div className=" d-flex justify-content-center" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic">
+        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold", color:"black", padding:'5px'}}>Email Campaigns</p>
+      </div>
       </div>
       <div className="row">
-        <div className="col-lg-8 main_image my-3">
-          <img src={Image} alt="first" className="img img-fluid" />
+        <div className="col-lg-12 my-3 main_image_container">
+          <img src={Image} alt="first" className="main_image" />
         </div>
-
+        <div className="testimonails_bottom_style">
+          <div className="testimonials_line"></div>
+          <div className="mx-3" style = {{fontWeight:"bold", fontSize:"24px"}}>Email Campaigns</div>
+        </div>
         <p className="text mt-3" style={{ lineHeight: "35px" }}>
-          Prospecting Leads has partnered with HyperMail, a reputed email
+          PROSPECT LEADS has partnered with HyperMail, a reputed email
           campaign service provider that can program mass email marketing
           campaigns for your organization. HyperMail’s platform can assist with
           driving brand awareness, periodic newsletters, demand generation,

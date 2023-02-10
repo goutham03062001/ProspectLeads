@@ -10,7 +10,7 @@ const Testimonials = ({ isFromHomePage }) => {
           <div className="container my-5">
             <div className="row my-3">
               <div>
-                <p className="text text-center my-3 testimonails_header">
+                <p className="text text-center my-3 testimonails_header" >
                   Testimonials
                 </p>
               </div>
@@ -20,7 +20,7 @@ const Testimonials = ({ isFromHomePage }) => {
               <div className="col-lg-6">
                 <div className="testimonails_style">
                   <div className="testimonials_line"></div>
-                  <div className="mx-3">Testimonials</div>
+                  <div className="mx-3" style = {{fontWeight:"bold"}}>Testimonials</div>
                 </div>
 
                 <p className="testimonials_left_heading">
@@ -29,13 +29,13 @@ const Testimonials = ({ isFromHomePage }) => {
                 <p className="testimonials_comments">
                   My experience has been extremely pleasant. I work with Steve
                   Blaine and have found him to be very knowledgeable and
-                  responsive. I am indeed very satisfied with Prospecting Leads
+                  responsive. I am indeed very satisfied with PROSPECT LEADS 
                   and their superior level of service.
                 </p>
 
                 <div className="testimonails_bottom_style">
                   <div className="testimonials_line"></div>
-                  <div className="mx-3">Jackob, Marketing manager</div>
+                  <div className="mx-3" style = {{fontWeight:"bold"}}>Jackob, Marketing manager</div>
                 </div>
               </div>
               <div className="col-lg-1"></div>
@@ -62,11 +62,11 @@ const Testimonials = ({ isFromHomePage }) => {
                 </div>
                   <div className="card-body mt-5">
                     <p className="card_desc_testimonials">
-                      While I have only used Prospecting Leads over a short
+                      While I have only used PROSPECT LEADS over a short
                       period of time, it’s quite clear that our money was well
                       invested. I was naturally skeptical at first but the
                       results are evidently great so far. I would strongly
-                      recommend learning more about Prospecting Leads and their
+                      recommend learning more about PROSPECT LEADS and their
                       services.
                     </p>
                   </div>
@@ -86,7 +86,7 @@ const Testimonials = ({ isFromHomePage }) => {
                       with. Highly professional, prompt and efficient. I am
                       particularly pleased with timely response, commitment to
                       delivering accurate data and customer satisfaction goals.
-                      I have no hesitation in recommending Prospecting Leads
+                      I have no hesitation in recommending PROSPECT LEADS 
                       services to companies...
                     </p>
                   </div>
@@ -102,11 +102,11 @@ const Testimonials = ({ isFromHomePage }) => {
                 </div>
                   <div className="card-body">
                     <p className="card_desc_testimonials">
-                      While I have only used Prospecting Leads over a short
+                      While I have only used PROSPECT LEADS Leads over a short
                       period of time, it’s quite clear that our money was well
                       invested. I was naturally skeptical at first but the
                       results are evidently great so far. I would strongly
-                      recommend learning more about Prospecting Leads and their
+                      recommend learning more about PROSPECT LEADS and their
                       services.
                     </p>
                   </div>

@@ -12,12 +12,17 @@
 }
 
 .contact_heading{
-    font-size: 25px;
-    color:brown;
+    font-size: 35px;
+    color:black;
     font-weight: bold;
 }
 .img_icon{
     width:60px;
     height:50px;
     border-radius: 3px;
+}
+
+.contact_img{
+    width:500px;
+    height:350px;
 }
