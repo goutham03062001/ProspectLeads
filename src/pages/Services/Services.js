@@ -7,38 +7,7 @@ import HealthCare from "../../Assets/HealthCare.png";
 import EmailCampaign from "../../Assets/B2B.png";
 import "./Services.css";
 const Services = () => {
-  const data = [
-    {
-      id: 1,
-      title: "B2B Email Lists",
-      image: B2B,
-    },
-    {
-      id: 1,
-      title: "Technology User Data & Insights",
-      image: Technology,
-    },
-    {
-      id: 1,
-      title: "MSP Database",
-      image: MSPData,
-    },
-    {
-      id: 1,
-      title: "Data Enrichment & ABM",
-      image: DataEnrichment,
-    },
-    {
-      id: 1,
-      title: "Data Enrichment & ABM",
-      image: HealthCare,
-    },
-    {
-      id: 1,
-      title: "Data Enrichment & ABM",
-      image: EmailCampaign,
-    },
-  ];
+  
   return (
     <div className="container">
       <div className="row">

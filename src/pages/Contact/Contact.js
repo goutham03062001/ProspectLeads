@@ -4,7 +4,7 @@ import ContactImage from "../../Assets/contactUs.png";
 import LocationImage from "../../Assets/location.png";
 import CallImage from "../../Assets/telephone.png";
 import EmailImage from "../../Assets/email.png";
-import { MailOutlined } from "@mui/icons-material";
+
 const Contact = ({ isFromHomePage }) => {
   return (
     <div className="container my-5">

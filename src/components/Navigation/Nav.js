@@ -1,6 +1,6 @@
 import React from 'react'
-import {Menu,Dropdown,Space} from "antd";
-import { DownOutlined, SmileOutlined } from '@ant-design/icons';
+import {Dropdown,Space} from "antd";
+import { DownOutlined} from '@ant-design/icons';
 import Logo from "../../Assets/secondLogo.png"
 import "./Nav.css";
 import IconButton from '@mui/material/IconButton';
@@ -63,7 +63,7 @@ const Nav = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light" style = {{backgroundColor:"black"}}>
     <ul className="logo_container">
-    <img src = {Logo} className="img logo_image" href="/"/>
+    <img src = {Logo} className="img logo_image" alt="logo"/>
   <a class="navbar-brand mt-3" href="/" style = {{color : "white", fontWeight:"bold", fontSize:"24px"}}>PROSPECT LEADS</a>
     </ul>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,7 +102,7 @@ const Nav = () => {
     }}
     style = {{padding:"10px"}}
   >
-    <a onClick={(e) => e.preventDefault()}>
+    <a onClick={(e) => e.preventDefault()} href="#!">
       <Space style = {{color:"white", marginTop:"10px", fontSize:"16px",fontWeight:"bold" }}>
         What We Offer
         <DownOutlined style = {{marginTop:"-5px"}}/>

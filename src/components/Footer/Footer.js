@@ -1,12 +1,8 @@
 import React from "react";
-import LocationOnSharpIcon from "@mui/icons-material/LocationOnSharp";
-import CallIcon from "@mui/icons-material/Call";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import "./Footer.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { EmailOutlined } from "@mui/icons-material";
 // import { Instagram } from "@mui/icons-material";
 const Footer = () => {
   return (

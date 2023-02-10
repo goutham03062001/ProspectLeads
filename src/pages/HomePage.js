@@ -6,7 +6,6 @@ import Testimonials from "./Testimonials/Testimonials";
 import Partners from './Partners/Partners';
 import Countdown from './Countdown/Countdown';
 import Top from '../components/Top/Top';
-import Navigation from "../components/Navigation/Nav";
 const HomePage = () => {
   return (
     <>
