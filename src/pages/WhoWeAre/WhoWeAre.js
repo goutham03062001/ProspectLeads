@@ -9,7 +9,7 @@ const WhoWeAre = () => {
   return (
     <>
     <div className="container my-5">
-      <div className="row mt-5">
+      <div className="row who_we_are_row mt-5">
         <div className="col-lg-7 mt-5">
           <p className="text" style = {{textAlign:"justify", lineHeight:'35px'}}>
             For over a decade now, PROSPECT LEADS has been at the forefront
