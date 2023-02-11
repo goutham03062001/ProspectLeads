@@ -16,7 +16,7 @@ const Services = () => {
         </p>
       </div>
       <div className=" service_row row">
-        <div className="col-lg-4">
+        <div className="col-lg-4 service_card_container">
           <div className="card my-3 service_card">
             <div className="card_img">
               <img src={B2B} className="img img-fluid" alt="title" />
@@ -26,7 +26,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="col-lg-4">
+        <div className="col-lg-4 service_card_container">
           <div className="card my-3 service_card">
             <div className="card_img">
               <img src={DataEnrichment} className="img img-fluid" alt="title" />
@@ -37,7 +37,7 @@ const Services = () => {
         </div>
 
 
-        <div className="col-lg-4">
+        <div className="col-lg-4 service_card_container">
           <div className="card my-3 service_card">
             <div className="card_img">
               <img src={Technology} className="img img-fluid" alt="title" />
@@ -48,7 +48,7 @@ const Services = () => {
         </div>
 
 
-        <div className="col-lg-4">
+        <div className="col-lg-4 service_card_container">
           <div className="card my-3 service_card">
             <div className="card_img">
               <img src={MSPData} className="img img-fluid" alt="title" />
@@ -59,7 +59,7 @@ const Services = () => {
         </div>
 
 
-        <div className="col-lg-4">
+        <div className="col-lg-4 service_card_container">
           <div className="card my-3 service_card">
             <div className="card_img">
               <img src={HealthCare} className="img img-fluid" alt="title" />
@@ -70,7 +70,7 @@ const Services = () => {
         </div>
 
 
-        <div className="col-lg-4">
+        <div className="col-lg-4 service_card_container">
           <div className="card my-3 service_card">
             <div className="card_img">
               <img src={EmailCampaign} className="img img-fluid" alt="title" />
