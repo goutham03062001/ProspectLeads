@@ -16,13 +16,13 @@ const B2BEmail = () => {
       <div className="row my-5">
       <div className=" d-flex justify-content-center" data-aos="flip-left"
      data-aos-easing="ease-out-cubic">
-        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold", color:"black", padding:'5px'}}>B2B Email Lists</p>
+        <p className = "b2b_page_heading" style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold", color:"black", padding:'5px'}}>B2B Email Lists</p>
       </div>
 
       </div>
       <div className="row">
-        <div className="col-lg-12 main_image mt-1">
-          <img src={Image} alt="first" className="img img-fluid main_image" />
+        <div className="col-lg-12 main_image b2b_image_container mt-1">
+          <img src={Image} alt="first" className="img img-fluid main_image b2b_image" />
         </div>
         <div className="testimonails_bottom_style">
           <div className="testimonials_line"></div>

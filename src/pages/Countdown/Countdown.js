@@ -11,25 +11,22 @@ const Countdown = () => {
     <div className="container my-3">
         <div className='row my-3 py-5'>
                
-            <div className='col-lg-3 count_down_container'>
-                <div className='row'>
-                    <div className='col-lg-11'>
-                    <div className="count_down_icon">
-                    <img src = {EmployeeImage} alt = "employee" className="img img-fluid"
+            
+            <div className='col-lg-3 count_down_container bg-white'>
+                <div>
+                <img src = {EmployeeImage} alt = "employee" className="img img-fluid count_down_image"
                     style = {{width:"150px", height:"150px"}}/>
                 </div>
-                <div><br/>
-                <p className="bg-dark text-white p-2 text-center text-bold">240 + Employee</p>
-                </div>
-                
-                 </div>
-                    <div className='col-lg-1 count_down_style'></div>
+                <div>
+                <br/>
+                <p className="bg-dark text-white p-2 text-center text-bold">240 + Employees</p>
                 </div>
             </div>
+            
 
             <div className='col-lg-3 count_down_container bg-white'>
                 <div>
-                <img src = {AwardImage} alt = "employee" className="img img-fluid"
+                <img src = {AwardImage} alt = "employee" className="img img-fluid count_down_image"
                     style = {{width:"150px", height:"150px"}}/>
                 </div>
                 <div>
@@ -41,7 +38,7 @@ const Countdown = () => {
 
             <div className='col-lg-3 count_down_container'>
             <div>
-            <img src = {HandShakeImage} alt = "employee" className="img img-fluid"
+            <img src = {HandShakeImage} alt = "employee" className="img img-fluid count_down_image"
                     style = {{width:"150px", height:"150px"}}/>
                 </div>
                 <div><br/>
@@ -51,7 +48,7 @@ const Countdown = () => {
 
             <div className='col-lg-3 count_down_container'>
             <div>
-            <img src = {RatingImage} alt = "employee" className="img img-fluid"
+            <img src = {RatingImage} alt = "employee" className="img img-fluid count_down_image"
                     style = {{width:"150px", height:"150px", backgroundColor:"#C3DDDD"}}/>
                 </div>
                 <div><br/>

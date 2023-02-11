@@ -13,9 +13,9 @@ const Enrichment = () => {
   return (
     <div className="container my-5">
       <div className="row my-5">
-      <div className=" d-flex justify-content-center" data-aos="flip-left"
+      <div className="enrichment_div" data-aos="flip-left"
      data-aos-easing="ease-out-cubic">
-        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold",color:"black", padding:'5px'}}>Data Enrichment & ABM</p>
+        <p className = "enrichment_page_heading" style = {{textAlign:"center", marginTop:"10px",fontWeight : "bold",color:"black", padding:'5px'}}>Data Enrichment & ABM</p>
       </div>
       </div>
       <div className="row">

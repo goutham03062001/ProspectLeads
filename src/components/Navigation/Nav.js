@@ -64,7 +64,7 @@ const Nav = () => {
     <nav class="navbar navbar-expand-lg navbar-light" style = {{backgroundColor:"black"}}>
     <ul className="logo_container">
     <img src = {Logo} className="img logo_image" alt="logo"/>
-  <a class="navbar-brand mt-3" href="/" style = {{color : "white", fontWeight:"bold", fontSize:"24px"}}>PROSPECT LEADS</a>
+  <a class="navbar-brand company_name mt-3" href="/" style = {{color : "white", fontWeight:"bold", fontSize:"24px"}}>PROSPECT LEADS</a>
     </ul>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <IconButton class="navbar-toggler-icon" style = {{backgroundColor:"white", color:"white",padding:"10px"}}/>
@@ -78,23 +78,6 @@ const Nav = () => {
       <li class="nav-item">
         <a class="nav-link" href="/WhoWeAre" style = {{color : "white", fontWeight:"bold"}}>Who We Are</a>
       </li>
-      {/* <Menu mode = "vertical" style = {{color : "white"}} theme="dark" >
-      <Menu.SubMenu key="SubMenu" title=" What We Offer " className="menu_heading nav-item">
-      <Menu.Item key="two" style = {{backgroundColor:"black", color:"white"}}>
-        Technology
-      </Menu.Item>
-      <Menu.Item key="three" style = {{backgroundColor:"black", color:"white"}}>
-        MSP Database
-      </Menu.Item>
-        <Menu.Item key="four" style = {{backgroundColor:"black", color:"white"}}>
-          Navigation Four
-        </Menu.Item>
-        <Menu.Item key="five" style = {{backgroundColor:"black", color:"white"}}>
-          Navigation Five
-        </Menu.Item>
-      
-    </Menu.SubMenu>
-      </Menu> */}
 
       <Dropdown
     menu={{
@@ -104,7 +87,7 @@ const Nav = () => {
   >
     <a onClick={(e) => e.preventDefault()} href="#!">
       <Space style = {{color:"white", marginTop:"10px", fontSize:"16px",fontWeight:"bold" }}>
-        What We Offer
+        What We Offers
         <DownOutlined style = {{marginTop:"-5px"}}/>
       </Space>
     </a>

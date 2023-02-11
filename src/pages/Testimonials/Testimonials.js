@@ -10,13 +10,13 @@ const Testimonials = ({ isFromHomePage }) => {
           <div className="container my-5">
             <div className="row my-3">
               <div>
-                <p className="text text-center my-3 testimonails_header" >
+                <p className="text text-center my-3 testimonails_heading" >
                   Testimonials
                 </p>
               </div>
             </div>
 
-            <div className="row">
+            <div className="row testimonials_row">
               <div className="col-lg-6">
                 <div className="testimonails_style">
                   <div className="testimonials_line"></div>
@@ -42,7 +42,7 @@ const Testimonials = ({ isFromHomePage }) => {
               <div className="col-lg-5">
                 <img
                   src={Testimonial}
-                  className="img img-fluid"
+                  className="img img-fluid testimonials_image"
                   alt="testimonials"
                 />
               </div>

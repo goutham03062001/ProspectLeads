@@ -6,6 +6,24 @@
     align-items: center;
 }
 .main_image{
-    height:400px !important;
-    width:70% !important
+    height:400px;
+    width:80% !important
+}
+
+@media screen and (max-width:600px) {
+    .b2b_image{
+        /* width:100% !important;
+        height:400px; */
+        width:100%;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:15%;
+        
+    }
+
+    .b2b_page_heading{
+        font-size: 28px !important;
+    }
 }

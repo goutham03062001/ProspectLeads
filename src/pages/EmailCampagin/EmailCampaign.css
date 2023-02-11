@@ -12,3 +12,16 @@
     margin-left: 10% !important;
 
 }
+
+.email_campagin_heading{
+    font-size: 40px;
+}
+
+@media screen and (max-width:600px){
+    .email_campagin_heading{
+        font-size: 28px;
+    }
+    .email_campaign_list{
+        margin-left: 15px;
+    }
+}

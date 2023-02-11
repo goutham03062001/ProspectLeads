@@ -9,7 +9,7 @@ const Top = () => {
     <div className="container-fluid mt-1" style={{ backgroundColor: "black" }}>
       <div className="row">
         <Carousel autoplay className="carousel_container">
-          <div className="carouselInner  d-flex my-3 p-2">
+          <div className="carouselInner d-flex my-3 p-2 ">
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <img
                 src={FirstImage}
@@ -19,15 +19,15 @@ const Top = () => {
             </div>
             <div className="col-lg-6 col-sm-12 col-xs-12 my-3">
               <p className="text text-white">Grow your business with </p>
-              <h4 className="text text-white">Technology Sales Intelligence</h4>
-              <p style={{ lineHeight: "30px" ,fontSize:"20px"}} className="text text-white mt-4">
+              <h4 className="text text-white carousel_heading">Technology Sales Intelligence</h4>
+              <p style={{ lineHeight: "30px" ,fontSize:"20px"}} className="text text-white mt-4 carousel_text">
                 Prospect Leads captures technology installation details under
                 various categories to provide B2B companies with insights on
                 competitor or partner product users. Our clients accomplish
                 successful outcomes in their marketing programs thanks to the
                 most accurate and reliable technographics available.{" "}
               </p>
-              <button style = {{backgroundColor:"white", padding:"10px"}}>
+              <button style = {{backgroundColor:"white", padding:"10px"}} className = "carousel_button">
                 <a href = "/Technology-user-data" style = {{color:"black"}}>Learn More</a>
               </button>
             </div>
@@ -41,14 +41,14 @@ const Top = () => {
               />
             </div>
             <div className="col-lg-6 col-sm-12">
-              <p className="text text-white">Data Services</p>
-              <h4 className="text text-white">B2B Data Services</h4>
-              <p style={{ lineHeight: "30px" , fontSize:"20px"}} className="text text-white mt-4">
+              <p className="text text-white b2b_services">Data Services</p>
+              <h4 className="text text-white carousel_heading">B2B Data Services</h4>
+              <p style={{ lineHeight: "30px" , fontSize:"20px"}} className="text text-white mt-4 carousel_text ">
                 Any industry, any market, any niche segment --we have it all
                 with unique data customization capabilities to narrow in on your
                 ideal target market
               </p>
-              <button style = {{backgroundColor:"white", padding:"10px"}}>
+              <button style = {{backgroundColor:"white", padding:"10px"}} className = "carousel_button">
                 <a href = "/B2B" style = {{color:"black"}}>Learn More</a>
               </button>
             </div>
@@ -64,16 +64,16 @@ const Top = () => {
             </div>
             <div className="col-lg-6 col-sm-12">
               <p className="text text-white">Digital Marketing</p>
-              <h4 className="text text-white">HealthCare Intelligence</h4>
+              <h4 className="text text-white carousel_heading">HealthCare Intelligence</h4>
               <p
                 style={{ lineHeight: "30px", fontSize: "20px" }}
-                className="text text-white mt-4"
+                className="text text-white mt-4 carousel_text"
               >
                 Gain access to our trusted network of over 62 different types of
                 doctors and Medical Specialists with direct contact and
                 business information
               </p>
-              <button style = {{backgroundColor:"white", padding:"10px"}}>
+              <button style = {{backgroundColor:"white", padding:"10px"}} className = "carousel_button">
                 <a href = "/HealthCare" style = {{color:"black"}}>Learn More</a>
               </button>
             </div>

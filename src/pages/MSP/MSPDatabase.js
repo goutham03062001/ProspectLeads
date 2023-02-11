@@ -2,6 +2,7 @@ import React, {useEffect} from "react";
 import Image from "../../Assets/MSPData.png";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import "./MSP.css"; 
 const MSPDatabase = () => {
   useEffect(()=>{
     Aos.init({
@@ -32,7 +33,7 @@ const MSPDatabase = () => {
       <div className="row my-5">
       <div className=" d-flex justify-content-center" data-aos="flip-left"
      data-aos-easing="ease-out-cubic">
-        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold",color:"black", padding:'5px'}}>MSP DATABASE</p>
+        <p className = "msp_main_heading" style = {{ textAlign:"center", marginTop:"10px",fontWeight : "bold",color:"black", padding:'5px'}}>MSP DATABASE</p>
       </div>
       </div>
       <div className="row">
@@ -41,7 +42,7 @@ const MSPDatabase = () => {
         </div>
         <div className="testimonails_bottom_style">
           <div className="testimonials_line"></div>
-          <div className="mx-3" style = {{fontWeight:"bold", fontSize:"24px"}}>MSP Database</div>
+          <div className="mx-3 msp_sub_heading" style = {{fontWeight:"bold"}}>MSP Database</div>
         </div>
         <p className="text mt-3" style={{ lineHeight: "35px" }}>
           A managed service provider (MSP) delivers services such as network,
@@ -70,7 +71,7 @@ const MSPDatabase = () => {
         {
             data.map( item=>{
                 return(<>
-                    <div className="col-lg-4 col-12">
+                    <div className="col-lg-4 col-12 item_card">
             <div className="card categories_style" >
                 <div className="card-body">{item}</div>
             </div>

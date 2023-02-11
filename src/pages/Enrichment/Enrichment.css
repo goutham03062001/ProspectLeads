@@ -12,3 +12,15 @@
     margin-left: 10% !important;
 
 }
+.enrichment_page_heading{
+    font-size: 40px;
+}
+@media screen and (max-width:600px) {
+    .enrichment_div .enrichment_page_heading{
+        font-size: 28px !important;
+        
+    }
+    .enrichment_image{
+        height:75%;
+    }
+}

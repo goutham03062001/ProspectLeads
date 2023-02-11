@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import Image from "../../Assets/HealthCare.png";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import "./HelathCare.css";
 const HealthCare = () => {
   useEffect(()=>{
     Aos.init({
@@ -30,12 +31,12 @@ const HealthCare = () => {
       <div className="row my-5">
       <div className=" d-flex justify-content-center" data-aos="flip-left"
      data-aos-easing="ease-out-cubic">
-        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold",color:"black", padding:'5px'}}>HealthCare Specialities</p>
+        <p  className = "health_care_heading" style = {{ textAlign:"center", marginTop:"10px",fontWeight : "bold",color:"black", padding:'5px'}}>HealthCare Specialities</p>
       </div>
       </div>
       <div className="row">
-        <div className="col-lg-12 main_image my-3">
-          <img src={Image} alt="first" className="img img-fluid main_image" />
+        <div className="col-lg-12 main_image my-3 health_care_image">
+          <img src={Image} alt="first" className="img img-fluid main_image " />
         </div>
         
       </div>
@@ -47,7 +48,7 @@ const HealthCare = () => {
       {
             data.map( item=>{
                 return(<>
-                    <div className="col-lg-4 col-12">
+                    <div className="col-lg-4 col-12 item_card">
             <div className="card categories_style" >
                 <div className="card-body">{item}</div>
             </div>

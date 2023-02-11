@@ -3,6 +3,7 @@ import Image from "../../Assets/B2B.png";
 import "./EmailCampagin";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import "./EmailCampaign.css";
 const EmailCampagin = () => {
   useEffect(()=>{
     Aos.init({
@@ -15,7 +16,7 @@ const EmailCampagin = () => {
       <div className="row my-5">
       <div className=" d-flex justify-content-center" data-aos="flip-left"
      data-aos-easing="ease-out-cubic">
-        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold", color:"black", padding:'5px'}}>Email Campaigns</p>
+        <p className = "email_campagin_heading" style = {{ textAlign:"center", marginTop:"10px",fontWeight : "bold", color:"black", padding:'5px'}}>Email Campaigns</p>
       </div>
       </div>
       <div className="row">
@@ -34,7 +35,7 @@ const EmailCampagin = () => {
           offers and other marketing initiatives. A few key notes as are
           follows:
         </p>
-        <ul style ={{listStyleType:"dot"}}>
+        <ul className = "email_campaign_list" style ={{listStyleType:"dot"}}>
             <li className="my-4">Dedicated IPs and Domains for each client</li>
             <li className="my-4" >Built in Data Scrub       </li>
             <li className="my-4" >A/B Testing to test effectiveness of subject lines and email copy</li>

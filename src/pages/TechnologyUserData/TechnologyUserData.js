@@ -43,16 +43,16 @@ const TechnologyUserData = () => {
       <div className="row my-5">
       <div className=" d-flex justify-content-center" data-aos="flip-left"
      data-aos-easing="ease-out-cubic">
-        <p style = {{fontSize : "40px", textAlign:"center", marginTop:"10px",fontWeight : "bold", color:"black", padding:'5px'}}>Technology User Data and Insights</p>
+        <p  className = "technology_page_heading" style = {{textAlign:"center", marginTop:"10px",fontWeight : "bold", color:"black", padding:'5px'}}>Technology User Data and Insights</p>
       </div>
       </div>
       <div className="row">
-        <div className="col-lg-12 main_image my-3">
-          <img src={Image} alt="first" className="img img-fluid main_image" />
+        <div className="col-lg-12 main_image technology_page_image my-3">
+          <img src={Image} alt="first" className="img img-fluid main_image " />
         </div>
         <div className="testimonails_bottom_style">
           <div className="testimonials_line"></div>
-          <div className="mx-3" style = {{fontWeight:"bold", fontSize:"24px"}}>Technology User Data and Insights</div>
+          <div className="mx-3 technology_page_sub_heading" style = {{fontWeight:"bold"}}>Technology User Data and Insights</div>
         </div>
         <p className="text mt-3" style={{ lineHeight: "35px" }}>
           PROSPECT LEADS captures technology installation details under
@@ -83,7 +83,7 @@ const TechnologyUserData = () => {
         {
             data.map( item=>{
                 return(<>
-                    <div className="col-lg-4 col-12">
+                    <div className="col-lg-4 item_card col-12">
             <div className="card categories_style" >
                 <div className="card-body">{item}</div>
             </div>

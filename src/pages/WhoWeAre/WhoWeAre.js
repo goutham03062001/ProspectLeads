@@ -39,37 +39,37 @@ const WhoWeAre = () => {
 
         <div className="container my-5">
             <div className="row my-3">
-                <h3 className="my-2" style = {{fontWeight : "bold"}}> Our Process</h3>
+                <h3 className="my-2 our_process_main_heading" style = {{fontWeight : "bold"}}> Our Process</h3>
 
                 
             </div>
 
-            <div className="row">
+            <div className="row our_process_image_container">
                 <div className="col-lg-3">
                     <div className = "who_we_are_image_container">
                     <img src = {Sources} className="who_we_are_image" alt="source"/>
-                    <h3 classNames = "my-3" style = {{ fontWeight : "bold"}}>Sources</h3>
+                    <p classNames = "my-3 our_process_heading" style = {{ fontWeight : "bold"}}>Sources</p>
                     </div>
                 </div>
 
                 <div className="col-lg-3">
                 <div className = "who_we_are_image_container">
                     <img src = {Insight} className="who_we_are_image" alt="source"/>
-                    <h3 classNames = "my-3" style = {{fontWeight : "bold"}}>Insights</h3>
+                    <p classNames = "my-3 our_process_heading" style = {{fontWeight : "bold"}}>Insights</p>
                     </div>
                 </div>
 
                 <div className="col-lg-3">
                 <div className = "who_we_are_image_container">
                     <img src = {Mining} className="who_we_are_image" alt="source"/>
-                    <h3 classNames = "my-3" style = {{fontWeight : "bold"}}>Mining</h3>
+                    <p classNames = "my-3 our_process_heading" style = {{fontWeight : "bold"}}>Mining</p>
                     </div>
                 </div>
 
                 <div className="col-lg-3">
                 <div className = "who_we_are_image_container">
                     <img src = {Research} className="who_we_are_image" alt="source"/>
-                    <h3 classNames = "my-3" style = {{fontWeight : "bold"}}>Research</h3>
+                    <p classNames = "my-3 our_process_heading" style = {{fontWeight : "bold"}}>Research</p>
                     </div>
                 </div>
             </div>
