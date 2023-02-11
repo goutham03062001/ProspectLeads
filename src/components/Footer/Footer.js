@@ -1,11 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import SendIcon from '@mui/icons-material/Send';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-// import { Instagram } from "@mui/icons-material";
 const Footer = () => {
   return (
     <div className="container-fluid bg-image">
